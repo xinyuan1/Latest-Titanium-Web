@@ -1,4 +1,4 @@
-var app=angular.module('myApp',['ngAnimate']);app.controller('myCtrl',function($scope,$http){$http.get("http://localhost:3000/mcc").then(function(response){$scope.mccData=response.data;const categories=[];const mccCodeV={};for(let i=0;i<$scope.mccData.length;i++){if(categories.indexOf($scope.mccData[i]["AMEX Industry"].trim())>-1){let tmp=[];tmp=mccCodeV[$scope.mccData[i]["AMEX Industry"].trim()];if(tmp.indexOf(`${$scope.mccData[i]["MCC"]} - ${$scope.mccData[i]["MCC DESCRIPTION"].trim()}`)>-1)
+var app=angular.module('myApp',['ngAnimate']);app.controller('myCtrl',function($scope,$http){$http.get("/mcc").then(function(response){$scope.mccData=response.data;const categories=[];const mccCodeV={};for(let i=0;i<$scope.mccData.length;i++){if(categories.indexOf($scope.mccData[i]["AMEX Industry"].trim())>-1){let tmp=[];tmp=mccCodeV[$scope.mccData[i]["AMEX Industry"].trim()];if(tmp.indexOf(`${$scope.mccData[i]["MCC"]} - ${$scope.mccData[i]["MCC DESCRIPTION"].trim()}`)>-1)
 {}
 else{tmp.push(`${$scope.mccData[i]["MCC"]} - ${$scope.mccData[i]["MCC DESCRIPTION"].trim()}`)}
     mccCodeV[$scope.mccData[i]["AMEX Industry"].trim()]=tmp}

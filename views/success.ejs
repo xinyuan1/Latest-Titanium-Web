@@ -54,7 +54,7 @@
             <div class="col-sm-4" style="text-align: center; ">
                 <ul style="list-style-type: none">
                     <li> <%=data.fullName%>, your effective rate is <b style="color: #FF0000"> <%=effectiveRate%> </b> </li>
-                    <li>( <%=totalFee%> (Fee) / <%=totalVolume%> (Volume) )</li>
+                    <li>( <%=totalFee%> (in Fee) / <%=totalVolume%> (in Volume) )</li>
                 </ul>
             </div>
             <div class="col-sm-4">
@@ -67,10 +67,10 @@
             <div class="col-sm-4">
                 <div style="border-style: solid; text-align: center">
                     <span style="text-align: center;">
-                        <p> Your effective rate could be <b style="color: #00FF00"><U><%= values %></U></b> </p>
-                        <p> Monthly savings: <b>$</b> <b style="color: #00FF00"> <%=monthlySaving%> </b> </p>
-                        <p> Yearly savings: <b>$</b><b style="color: #00FF00"> <%=yearlySaving%> </b> </p>
-                        <p> 3 year saving will be <b>$</b><b style="color: #00FF00"> <%=threeYearSaving%> </b> </p>
+                        <p> Your effective rate could be <b style="color: #007F00"><U><%= values %></U></b> </p>
+                        <p> Monthly savings: <b>$</b> <b style="color: #007F00"> <%=monthlySaving%> </b> </p>
+                        <p> Yearly savings: <b>$</b><b style="color: #007F00"> <%=yearlySaving%> </b> </p>
+                        <p> 3 year saving will be <b>$</b><b style="color: #007F00"> <%=threeYearSaving%> </b> </p>
                     </span>
                 </div>
             </div>
@@ -85,9 +85,7 @@
 
 <script>
 
-    $(window).bind('resize',function(){
-        window.location.href = window.location.href;
-    });
+
     //Once the document is ready we set javascript and page settings
     var screenWidth;
     var screenHeight;
