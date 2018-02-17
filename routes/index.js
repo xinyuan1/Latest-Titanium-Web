@@ -15,7 +15,7 @@ var medianV = -1;
 router.get('/', function(req, res, next) {
         res.render('index',
             { title: ' '
-          });
+        });
 });
 
 
@@ -32,6 +32,7 @@ router.get('/mcc', function(req, res, next) {
     });
 });
 
+
 // sort function;
 var compare = function(a,b) {
     //console.log(a,b)
@@ -39,15 +40,16 @@ var compare = function(a,b) {
     b = parseFloat(b.effective_rate.substring(0, b.effective_rate.length-1));
    // console.log(a,b)
     if (a < b)
-        return -1;
-    if (a > b)
         return 1;
+    if (a > b)
+        return -1;
     return 0;
 };
 
+
 // respond to the home page: 'effectiverate.ejs';
 router.get('/effectiverate', function(req, res, next) {
-    //mccV = 5812;
+
     var erates = [];
     var op = [];
 
@@ -69,8 +71,8 @@ router.get('/effectiverate', function(req, res, next) {
                     count++;
                 }
             }
-            var tmp = {};
 
+            var tmp = {};
             tmp["type"]="normal";
             tmp["effective_rate"] = erates[i];
             tmp["count"]=count;
@@ -81,9 +83,8 @@ router.get('/effectiverate', function(req, res, next) {
         tmp={};
         tmp["type"]="new";
         tmp["effective_rate"]=effectiveRateValNew;
-        //console.log('effectiveRateValNew', effectiveRateValNew);
         tmp["count"]=1;
-        // op.push(tmp);
+
 
         //push new effectiverate into json array;
         tmp={};
@@ -100,8 +101,6 @@ router.get('/effectiverate', function(req, res, next) {
 
         var arr1 = new Array();
         op.sort(compare);
-
-
         arr1.push(op);
         res.json(arr1);
     });
@@ -109,27 +108,27 @@ router.get('/effectiverate', function(req, res, next) {
 
 
 
-//Save clients' data to database;
+//Save clients' data to database(accept information from from);
 router.post('/success', function(req, res, next){
     var task = req.body;
     var mccD = req.body.Mcc;
     var mcc = parseInt(mccD);
+    //global variable;
     mccV = mcc;
     var totalFee = req.body.totalFee;
     var newTotalFee = "$"+totalFee;
     var avgTicket = req.body.avgTicket;
     var newAvgTicket = "$"+avgTicket;
     var volume = req.body.totalVolume;
-    var newVolume="$"+volume
+    var newVolume="$"+volume;
     var effectiveRate = Number(totalFee)/Number(volume);
     // old effective rate
     var effectiveRate1 = (effectiveRate*100).toFixed(2)+"%";
     effectiveRateValOld=effectiveRate1;
 
     //save all clients' data into database;
-    db.clinfo.save(task, function (err, task) {
+    db.clinfo.insert(task, function (err, task) {
     });
-
 
     //extract effectiverate from effectiverate collection to calculate average effectiverate;
     db2.effectiverate.find({MCC: Number(mcc)}, function(err, effectiverate2){
@@ -138,7 +137,7 @@ router.post('/success', function(req, res, next){
         var sum=0;
         var eR = [];
 
-        //loop to add all effectiverate and the number of items
+        //loop to add all effectiverate and the amount of each effectiverate;
         effectiverate2.forEach(function(values) {
             //console.log(parseFloat(values['Effectiverates']));
            // arr.push(parseFloat(values['Effectiverates']));
@@ -175,18 +174,11 @@ router.post('/success', function(req, res, next){
         var threeYearSaving=yearSaving*3;
 
 
-        //insert clents' old effective rate and new average effective rate into clients' information collection;
-        db.clinfo.update({"email": task.email}, {"$set":{"clientEffRate":effectiveRate1, "averageEffRate":averageER}});
+        //insert clients' old effective rate and new average effective rate into clients' information collection,
+        //at the same time, change zip code name from myInput to zipCode;
+        db.clinfo.update({"email": task.email},
+            {$rename: {"myInput":"zipCode"},"$set":{"clientEffRate":effectiveRate1, "averageEffRate":averageER}});
 
-        //MapReduce and create count collection
-        db2.effectiverate.mapReduce(
-            function() { emit(this.Effectiverates,1); },
-            function(key, values) {return Array.sum(values)},
-            {
-                query:{MCC:Number(mcc)},
-                out:{replace:"count"}
-            }
-        )
 
         //render all data to success web page
         res.render('success', {

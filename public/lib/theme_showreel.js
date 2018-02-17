@@ -8,7 +8,8 @@
  the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
  and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+ Software.
 
  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
  TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
@@ -17,42 +18,52 @@
  IN THE SOFTWARE.
  */
 
-// @version 1.1.55
 
-// This contains all vizuly namespaces and enumerators.
+vizuly.showreel = function (theme, skins, delay) {
 
-/**
- * @namespace vizuly
- */
-var vizuly = {};
-vizuly.version = "1.0";
+ if (!delay) delay = 500;
 
-/**
- * @namespace vizuly.core
- */
-vizuly.core = {}
+ var timer;
+ var stop=false;
+ var tween;
 
-vizuly.viz = {};
+ var reel = function () {
+   return reel;
+ }
 
-// Various layout enumerations implement by vizuly.core.components
-/**
- * @namespace vizuly.viz
- */
-vizuly.viz.layout = {};
+ reel.start = function () {
 
-vizuly.viz.layout.CLUSTERED = "CLUSTERED";
-vizuly.viz.layout.STACKED = "STACKED";
-vizuly.viz.layout.OVERLAP = "OVERLAP";
-vizuly.viz.layout.STREAM = "STREAM";
+  var i=0;
 
-/**
- * @namespace vizuly.svg
- */
-vizuly.svg = {};
+  timer = d3.timer(function(elapsed) {
 
-vizuly.theme = {};
-vizuly.skin = {};
+   if (elapsed > (i + 1) * delay ) {
+    theme.skin(skins[i]).viz().update();
+    if (tween) tween.apply(this,[theme]);
+    i++;
+   }
+   if (elapsed > skins.length * delay || stop == true) {
+     return true;
+   }
+  }, 50);
 
-vizuly.ui = {};
+  return reel;
+ }
 
 
+ reel.tween = function (_) {
+   if(!arguments.length) {
+    return tween;
+   }
+   tween = _;
+   return reel;
+ }
+
+ reel.stop = function () {
+   stop=true;
+  return reel;
+ }
+
+ return reel();
+
+}

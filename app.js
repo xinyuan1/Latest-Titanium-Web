@@ -8,9 +8,8 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var success =require('./routes/success');//添加的路由器
 var mcc = require('./routes/mcc');
-var count=require('./routes/count');
 var effectiverate=require('./routes/effectiverate');
-var chart=require('./routes/chart');
+
 
 
 
@@ -33,9 +32,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use ('/success', success);
 app.use('/mcc', mcc);
-app.use('/count',count);
-app.use('effectiverate', effectiverate);
-app.use('/chart', chart);
+app.use('/effectiverate', effectiverate);
+
 
 
 

@@ -7,11 +7,6 @@ var db3 = mongojs('mongodb://zhiguo:zhiguowang1207@ds137230.mlab.com:37230/mytas
 
 
 
-
-
-
-
-
 module.exports = router;
 
 

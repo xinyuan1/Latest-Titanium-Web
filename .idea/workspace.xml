@@ -2,10 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d4107d4-2006-4158-aeac-4065f2778e09" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Library/jquery-2.1.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Library/vizuly_core.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/bar_test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/lib/theme_showreel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/lib/vizuly_bar.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/ColumnTest.html" afterPath="$PROJECT_DIR$/public/ColumnTest.html" />
+      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change beforePath="$PROJECT_DIR$/column/ColumnTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/lib/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/lib/vizuly_core.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/core/component.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/core/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/svg/filter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/svg/gradient.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/svg/text.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/column_bar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/corona.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/linearea.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/radialprogress.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/rangeinput.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/scatter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/theme/weightedtree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/column/src/viz/column.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/public/Library/cssmenu.js" afterPath="$PROJECT_DIR$/public/Library/cssmenu.js" />
+      <change beforePath="$PROJECT_DIR$/public/bar/Library/styles/cssmenu.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/bar/Library/styles/vizuly.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/bar/lib/d3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/bar/lib/theme_showreel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/bar/styles/examples.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/column/ColumnTest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/column/Library/cssmenu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/column/column_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/column/lib/vizuly_column.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/column/src/theme/column_bar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/column_test.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/public/js/angularjsMain.js" afterPath="$PROJECT_DIR$/public/js/angularjsMain.js" />
+      <change beforePath="$PROJECT_DIR$/public/lib/vizuly_column.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/styles/examples.css" afterPath="$PROJECT_DIR$/public/styles/examples.css" />
+      <change beforePath="$PROJECT_DIR$/routes/chart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/routes/count.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change beforePath="$PROJECT_DIR$/routes/mcc.js" afterPath="$PROJECT_DIR$/routes/mcc.js" />
+      <change beforePath="$PROJECT_DIR$/views/chart.ejs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/views/count.ejs" afterPath="" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
       <change beforePath="$PROJECT_DIR$/views/success.ejs" afterPath="$PROJECT_DIR$/views/success.ejs" />
     </list>
@@ -24,8 +65,8 @@
       <file leaf-file-name="success.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/success.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+            <state relative-caret-position="200">
+              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -34,8 +75,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="3125">
+              <caret line="125" column="60" lean-forward="true" selection-start-line="125" selection-start-column="60" selection-end-line="125" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -45,8 +86,12 @@
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="22" column="107" lean-forward="false" selection-start-line="22" selection-start-column="107" selection-end-line="22" selection-end-column="107" />
-              <folding />
+              <caret line="207" column="78" lean-forward="true" selection-start-line="207" selection-start-column="78" selection-end-line="207" selection-end-column="78" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#12734#12740#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +114,9 @@
       <find>mccV</find>
       <find>fi</find>
       <find>console</find>
+      <find>datatipHtml</find>
+      <find>viz_container</find>
+      <find>medianV</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,13 +127,11 @@
       <list>
         <option value="$PROJECT_DIR$/routes/index-success.js" />
         <option value="$PROJECT_DIR$/views/index-success.ejs" />
-        <option value="$PROJECT_DIR$/views/test.ejs" />
         <option value="$PROJECT_DIR$/routes/extract.js" />
         <option value="$PROJECT_DIR$/routes/info.js" />
         <option value="$PROJECT_DIR$/views/info.ejs" />
         <option value="$PROJECT_DIR$/routes/post.js" />
         <option value="$PROJECT_DIR$/routes/users.js" />
-        <option value="$PROJECT_DIR$/routes/mcc.js" />
         <option value="$PROJECT_DIR$/routes/test_data.js" />
         <option value="$PROJECT_DIR$/views/test_data.ejs" />
         <option value="$PROJECT_DIR$/routes/image.js" />
@@ -96,12 +142,18 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/views/count.ejs" />
         <option value="$PROJECT_DIR$/routes/effectiverate.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/chart.js" />
         <option value="$PROJECT_DIR$/views/chart.ejs" />
-        <option value="$PROJECT_DIR$/public/column_test.js" />
-        <option value="$PROJECT_DIR$/public/js/angularjsMain.js" />
         <option value="$PROJECT_DIR$/public/ColumnTest.html" />
+        <option value="$PROJECT_DIR$/views/test.ejs" />
+        <option value="$PROJECT_DIR$/routes/test.js" />
+        <option value="$PROJECT_DIR$/routes/mcc.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/column/column_test.js" />
+        <option value="$PROJECT_DIR$/public/column_test.js" />
+        <option value="$PROJECT_DIR$/public/styles/examples.css" />
+        <option value="$PROJECT_DIR$/public/bar_test.js" />
+        <option value="$PROJECT_DIR$/public/js/angularjsMain.js" />
         <option value="$PROJECT_DIR$/views/success.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
@@ -119,11 +171,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="1" />
-    <option name="width" value="1920" />
-    <option name="height" value="1020" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -141,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,13 +203,14 @@
             <path>
               <item name="NewPaymentProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewPaymentProject" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,15 +223,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zhiguo\WebstormProjects\NewPaymentProject\public" />
-      <recent name="C:\Users\zhiguo\WebstormProjects\NewPaymentProject" />
-      <recent name="C:\Users\zhiguo\WebstormProjects\NewPaymentProject\views" />
-      <recent name="C:\Users\zhiguo\WebstormProjects\NewPaymentProject\public\stylesheets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zhiguo\WebstormProjects\NewPaymentProject\views" />
       <recent name="C:\Users\zhiguo\WebstormProjects\NewPaymentProject\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhiguo\WebstormProjects\NewPaymentProject\public" />
+      <recent name="C:\Users\zhiguo\WebstormProjects\NewPaymentProject\public\lib" />
+      <recent name="C:\Users\zhiguo\WebstormProjects\NewPaymentProject" />
+      <recent name="C:\Users\zhiguo\WebstormProjects\NewPaymentProject\views" />
+      <recent name="C:\Users\zhiguo\WebstormProjects\NewPaymentProject\public\stylesheets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,23 +287,26 @@
       <workItem from="1518617070771" duration="33022000" />
       <workItem from="1518717617133" duration="2285000" />
       <workItem from="1518720225039" duration="6389000" />
+      <workItem from="1518795915848" duration="1657000" />
+      <workItem from="1518799231931" duration="20309000" />
+      <workItem from="1518840434290" duration="6724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362794000" />
+    <option name="totallyTimeSpent" value="391484000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="1" width="1920" height="1020" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14170693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21114059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13496932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04540024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -277,20 +333,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/error.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/extract.js" />
-    <entry file="file://$PROJECT_DIR$/routes/info.js" />
-    <entry file="file://$PROJECT_DIR$/views/info.ejs" />
-    <entry file="file://$PROJECT_DIR$/routes/post.js" />
-    <entry file="file://$PROJECT_DIR$/routes/users.js" />
-    <entry file="file://$PROJECT_DIR$/views/test.ejs" />
-    <entry file="file://$PROJECT_DIR$/mydata4.json" />
     <entry file="file://$PROJECT_DIR$/views/mcc.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -325,28 +367,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/count.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/count.js" />
     <entry file="file://$PROJECT_DIR$/ColumnTest.html" />
-    <entry file="file://$PROJECT_DIR$/column/column_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="171" column="0" lean-forward="true" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/column/lib/d3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/column/column_test.js" />
+    <entry file="file://$PROJECT_DIR$/column/lib/d3.min.js" />
     <entry file="file://$PROJECT_DIR$/views/success.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -364,20 +388,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/src/ui/rangeinput.js" />
-    <entry file="file://$PROJECT_DIR$/column/lib/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="373" column="5" lean-forward="false" selection-start-line="373" selection-start-column="5" selection-end-line="373" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/column/lib/test.js" />
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -414,13 +425,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/count.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/count.ejs" />
     <entry file="file://$PROJECT_DIR$/routes/effectiverate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -439,52 +444,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/examples.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/success.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/mcc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/chart.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="84" column="48" lean-forward="true" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/chart.js" />
     <entry file="file://$PROJECT_DIR$/public/js/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -499,46 +462,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/src/theme/column_bar.js" />
+    <entry file="file://$PROJECT_DIR$/public/ColumnTest.html" />
+    <entry file="file://$PROJECT_DIR$/views/chart.ejs" />
+    <entry file="file://$PROJECT_DIR$/routes/success.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="125">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/src/theme/column_bar.js">
+    <entry file="file://$PROJECT_DIR$/views/test.ejs" />
+    <entry file="file://$PROJECT_DIR$/routes/test.js" />
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/mcc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bar/lib/d3.min.js" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/column/column_test.js" />
+    <entry file="file://$PROJECT_DIR$/public/Library/styles/vizuly.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/column_test.js">
+    <entry file="file://$PROJECT_DIR$/public/lib/d3.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ColumnTest.html">
+    <entry file="file://$PROJECT_DIR$/public/lib/vizuly_column.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/column_test.js" />
+    <entry file="file://$PROJECT_DIR$/public/styles/examples.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="1125">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/angularjsMain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="130" lean-forward="false" selection-start-line="7" selection-start-column="130" selection-end-line="7" selection-end-column="130" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/success.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        <state relative-caret-position="475">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -546,15 +535,49 @@
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="22" column="107" lean-forward="false" selection-start-line="22" selection-start-column="107" selection-end-line="22" selection-end-column="107" />
+          <caret line="207" column="78" lean-forward="true" selection-start-line="207" selection-start-column="78" selection-end-line="207" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#12734#12740#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/success.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bar_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="63" column="84" lean-forward="false" selection-start-line="63" selection-start-column="84" selection-end-line="63" selection-end-column="84" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1518820403947" expanded="true" signature="9467:9483" ph="..." />
+            <marker date="1518820403947" expanded="true" signature="9484:9598" ph="..." />
+            <marker date="1518820403947" expanded="false" signature="9508:9514" ph=" " />
+            <marker date="1518820403947" expanded="false" signature="9557:9582" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="3125">
+          <caret line="125" column="60" lean-forward="true" selection-start-line="125" selection-start-column="60" selection-end-line="125" selection-end-column="60" />
           <folding />
         </state>
       </provider>
